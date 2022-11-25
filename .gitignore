@@ -131,3 +131,5 @@ dmypy.json
 # custom
 .DS_Store
 *.wav
+*.HDF5
+*.zip
