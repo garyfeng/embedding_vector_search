@@ -107,6 +107,8 @@ services:
       - "8000:3000"
     depends_on:
       - "standalone"
+    environment:
+      - MILVUS_URL=host.docker.internal:19530
 
 networks:
   app_net:
