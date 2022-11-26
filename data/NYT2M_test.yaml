@@ -1,0 +1,14 @@
+H2M:
+  milvus-version: 2.0.0
+  data_path:
+    - /data/nytimes-256-angular.hdf5
+  data_dir:
+  dest_host: 'host.docker.internal' #'127.0.0.1'
+  dest_port: 19530
+  mode: 'overwrite'        # 'skip/append/overwrite'
+  dest_collection_name: 'nyt_test'
+  dest_partition_name: 'partition_1'
+  collection_parameter:
+    dimension: 256
+    index_file_size: 1024
+    metric_type: 'L2'
