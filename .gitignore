@@ -133,3 +133,4 @@ dmypy.json
 *.wav
 *.HDF5
 *.zip
+volumes

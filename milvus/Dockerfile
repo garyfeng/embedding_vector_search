@@ -15,8 +15,8 @@ RUN python setup.py bdist_wheel
 RUN pip install dist/*.whl 
 
 # For the audio-search example
-ADD example_audio .
-ADD src .
+ADD example_audio ./example_audio
+ADD src ./src
 ADD requirements.txt .
 RUN pip install -r requirements.txt
 
@@ -27,4 +27,4 @@ RUN pip install -r requirements.txt
 # then open another terminal to this docker (e.g., docker run ...)
 # and run `python ./src/test_audio_search.py` to see results.
 
-CMD ['/bin/bash']
+CMD ["python", "./src/audio_search.py"]
