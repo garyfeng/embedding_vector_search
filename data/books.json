@@ -1,0 +1,9 @@
+{
+    "rows":[
+      {"book_id": 101, "word_count": 13, "book_intro": [1.1, 1.2]},
+      {"book_id": 102, "word_count": 25, "book_intro": [2.1, 2.2]},
+      {"book_id": 103, "word_count": 7, "book_intro": [3.1, 3.2]},
+      {"book_id": 104, "word_count": 12, "book_intro": [4.1, 4.2]},
+      {"book_id": 105, "word_count": 34, "book_intro": [5.1, 5.2]}
+    ]
+  }
