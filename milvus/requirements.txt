@@ -4,7 +4,7 @@ fastapi
 librosa==0.8.0
 numpy>=1.21
 pydantic
-pymilvus==2.0.1
+pymilvus
 pymysql
 python-multipart
 soundfile==0.10.3.post1
