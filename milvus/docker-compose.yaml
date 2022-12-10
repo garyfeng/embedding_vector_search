@@ -34,6 +34,7 @@ services:
   standalone:
     # container_name: milvus-standalone
     image: milvusdb/milvus:2.2.0-latest
+    restart: always
     networks:
       app_net:
         ipv4_address: 172.16.123.10
